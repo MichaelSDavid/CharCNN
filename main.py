@@ -10,7 +10,7 @@ from tensorflow.keras.callbacks import ReduceLROnPlateau, EarlyStopping
 from tensorflow.keras.utils import to_categorical
 from sklearn.model_selection import train_test_split
 
-# # Tensorflow disable debug logs
+# Tensorflow disable debug logs
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
 # Establish letter dict, path, and read data from CSV
